@@ -8,7 +8,7 @@ body {
 
 .full {
   background: url(../img/bg.jpg) no-repeat center center fixed;
-	background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -98,7 +98,7 @@ a,a:hover {
   font-size: 16px;
   line-height: 46px;
   color: #777;
-  border: 1px solid black;
+  border: 1px solid #113654;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 3px;
@@ -152,7 +152,7 @@ a,a:hover {
 }
 
 .social a i {
-  color: black;
+  color: #113654;
   display: inline-block;
   padding: 0 10px;
 }
@@ -217,6 +217,14 @@ a,a:hover {
     width: 90%;
     margin-top: 10px;
   }
+
+  .social {
+    margin-left: -5px;
+  }
+
+  .social a i {
+    padding: 0 5px;
+  }
 }
 
 #about {
@@ -224,10 +232,10 @@ a,a:hover {
 }
 
 #about h3 {
-  color: black;
+  color: #113654;
   text-align: center;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
+  border-bottom: 5px solid #113654;
+  border-top: 5px solid #113654;
   margin-bottom: 30px;
   margin-right: 30px;
   padding: 0.625rem 0;
@@ -235,9 +243,28 @@ a,a:hover {
 }
 
 #about p, #about a {
-  color: black;
+  color: #113654;
 }
 
 a.underline {
   text-decoration: underline;
+}
+
+
+#times tr td:last-child {
+  padding-left: 20px;
+}
+
+#times tr td {
+  color: #113654;
+}
+
+.map {
+  float: right;
+  margin-right: 30px;
+  opacity: 0.8;
+}
+
+.map:hover {
+  opacity: 1;
 }
